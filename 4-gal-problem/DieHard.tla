@@ -6,7 +6,7 @@ VARIABLES small, big
 TypeOK == /\ small \in 0..3
           /\ big   \in 0..5
 
-HeroNotOK == big /= 4
+HeroNotOK == big # 4
 
 FillSmall == /\ small' = 3
              /\ big'   = big

@@ -1,0 +1,220 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 123 and seed -8068089163110066335 with 1 worker on 8 cores with 3641MB heap and 64MB offheap memory [pid: 17287] (Mac OS X 10.16 x86_64, Oracle Corporation 15.0.2 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/hollin/Documents/tyy/2024Q2/tla/fifo/InnerFIFO.tla
+Parsing file /private/var/folders/_v/rd6dx31s1jx0h0mg0237c5y40000gn/T/Naturals.tla
+Parsing file /private/var/folders/_v/rd6dx31s1jx0h0mg0237c5y40000gn/T/Sequences.tla
+Parsing file /private/var/folders/_v/rd6dx31s1jx0h0mg0237c5y40000gn/T/TLC.tla
+Parsing file /Users/hollin/Documents/tyy/2024Q2/tla/fifo/Channel.tla
+Parsing file /private/var/folders/_v/rd6dx31s1jx0h0mg0237c5y40000gn/T/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Channel
+Semantic processing of module InnerFIFO
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-04-17 20:33:23)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 2 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 4 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 8 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 16 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 32 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 36 distinct states generated at 2024-04-17 20:33:24.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(18) at 2024-04-17 20:33:27: 736,006 states generated (736,006 s/min), 473,271 distinct states found (473,271 ds/min), 210,604 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(24) at 2024-04-17 20:34:27: 21,159,198 states generated (20,423,192 s/min), 13,743,656 distinct states found (13,270,385 ds/min), 6,328,106 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2024-04-17 20:34:27
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 9, col 1 to line 9, col 4 of module InnerFIFO>: 36:36
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 9, col 12 to line 9, col 24 of module Channel: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 10, col 12 to line 10, col 30 of module Channel: 12
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 9, col 12 to line 9, col 24 of module Channel: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 10, col 12 to line 10, col 30 of module Channel: 72
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 11, col 12 to line 11, col 19 of module InnerFIFO: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<SSend line 17, col 1 to line 17, col 10 of module InnerFIFO>: 8429850:9492789
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 12, col 15 to line 12, col 33 of module Channel: 31740147
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 12, col 15 to line 12, col 22 of module Channel: 22247336
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 12, col 26 to line 12, col 33 of module Channel: 22247355
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 13, col 15 to line 13, col 60 of module Channel: 9492897
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 13, col 23 to line 13, col 60 of module Channel: 9492919
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 24 to line 13, col 27 of module Channel: 9492937
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 36 to line 13, col 44 of module Channel: 9492820
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 47 to line 13, col 59 of module Channel: 9492822
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 17, col 30 to line 17, col 32 of module InnerFIFO: 9492980
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 18, col 18 to line 18, col 37 of module InnerFIFO: 9492824
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<BufRcv line 20, col 1 to line 20, col 6 of module InnerFIFO>: 3188628:4251492
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 6, col 41 to line 6, col 47 of module InnerFIFO: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 6, col 58 to line 6, col 59 of module InnerFIFO: 73071401
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 15, col 11 to line 15, col 29 of module Channel: 11667347
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 15, col 11 to line 15, col 18 of module Channel: 7415858
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 15, col 22 to line 15, col 29 of module Channel: 7415862
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 16, col 11 to line 16, col 45 of module Channel: 4251492
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 21, col 14 to line 21, col 35 of module InnerFIFO: 4251492
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 22, col 14 to line 22, col 26 of module InnerFIFO: 4251492
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<BufSend line 24, col 1 to line 24, col 7 of module InnerFIFO>: 2125740:5998670
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 24, col 15 to line 24, col 22 of module InnerFIFO: 13414590
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 24, col 15 to line 24, col 15 of module InnerFIFO: 7415912
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 24, col 19 to line 24, col 22 of module InnerFIFO: 7415916
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 12, col 15 to line 12, col 33 of module Channel: 13414498
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 12, col 15 to line 12, col 22 of module Channel: 7415805
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 12, col 26 to line 12, col 33 of module Channel: 7415809
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 13, col 15 to line 13, col 60 of module Channel: 5998709
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 13, col 23 to line 13, col 60 of module Channel: 5998714
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 24 to line 13, col 27 of module Channel: 5998719
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 36 to line 13, col 44 of module Channel: 5998680
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 13, col 47 to line 13, col 59 of module Channel: 5998680
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 25, col 28 to line 25, col 34 of module InnerFIFO: 5998730
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 26, col 15 to line 26, col 26 of module InnerFIFO: 5998732
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 26, col 20 to line 26, col 26 of module InnerFIFO: 5998737
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 27, col 15 to line 27, col 26 of module InnerFIFO: 5998681
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<RRcv line 29, col 1 to line 29, col 4 of module InnerFIFO>: 0:1417152
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 7, col 42 to line 7, col 48 of module InnerFIFO: 6
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 7, col 59 to line 7, col 61 of module InnerFIFO: 37079775
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 15, col 11 to line 15, col 29 of module Channel: 8833145
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 15, col 11 to line 15, col 18 of module Channel: 7415996
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 15, col 22 to line 15, col 29 of module Channel: 7416001
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 15, col 22 to line 15, col 25 of module Channel: 7416004
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 16, col 11 to line 16, col 45 of module Channel: 1417152
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 30, col 12 to line 30, col 30 of module InnerFIFO: 1417152
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(26) at 2024-04-17 20:35:27: 40,615,801 states generated (19,456,603 s/min), 24,951,446 distinct states found (11,207,790 ds/min), 9,287,098 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2127:1 @!@!@
+when writing the disk (StatePoolWriter.run):
+states/24-04-17-20-33-23/4055 (No such file or directory)
+@!@!@ENDMSG 2127 @!@!@
